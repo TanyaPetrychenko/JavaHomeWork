@@ -26,14 +26,14 @@ public class Calculator {
                 System.out.println( + result);
                 break;
             case "*":
-                result = operand2 * operand2;
+                result = operand1 * operand2;
                 System.out.println ( + result);
                 break;
 
             case "/":
-                result = operand2 / operand2;
-                System.out.println( + result);
                 if (operand2 == 0) System.out.println("error" );
+                result = operand1 / operand2;
+                System.out.println( + result);
 
                 break;
 
